@@ -13,7 +13,7 @@ const Modal = ({ children }) => {
 
   useEffect(() => {
     if (!modalRef.current?.open) {
-      modalRef.current?.showMoal();
+      modalRef.current?.showModal();
     }
   }, []);
 
